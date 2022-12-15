@@ -1,5 +1,3 @@
-"use client";
-
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
 import StartSteps from "../components/StartSteps";

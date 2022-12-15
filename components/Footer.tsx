@@ -1,5 +1,3 @@
-"use client";
-
 import { motion } from "framer-motion";
 import { socials } from "../data/data";
 import { footerVariants } from "../utils/motion";
