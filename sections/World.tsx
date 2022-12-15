@@ -37,32 +37,52 @@ const World: React.FC = (): React.ReactElement => (
           className="w-full h-full object-cover"
           unoptimized
         />
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-slate-600">
+        <div className="absolute bottom-20 right-20 w-[150px] h-[150px] p-[6px]">
           <Image
             src="/People01.png"
             height="0"
             width="0"
-            alt="people"
+            alt="people-01"
             className="w-full h-full"
             unoptimized
           />
         </div>
-        <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-slate-600">
+        <div className="absolute top-10 left-20 w-[150px] h-[150px] p-[6px]">
           <Image
             src="/People02.png"
             height="0"
             width="0"
-            alt="people"
+            alt="people-02"
             className="w-full h-full"
             unoptimized
           />
         </div>
-        <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-slate-600">
+        <div className="absolute top-1/2 left-[45%] w-[150px] h-[150px] p-[6px]">
           <Image
             src="/People03.png"
             height="0"
             width="0"
-            alt="people"
+            alt="people-03"
+            className="w-full h-full"
+            unoptimized
+          />
+        </div>
+        <div className="absolute top-52 left-60 p-[6px]">
+          <Image
+            src="/Vr01.png"
+            height="0"
+            width="0"
+            alt="vr-01"
+            className="w-full h-full"
+            unoptimized
+          />
+        </div>
+        <div className="absolute -top-16 right-60 p-[6px]">
+          <Image
+            src="/Vr02.png"
+            height="0"
+            width="0"
+            alt="vr-02"
             className="w-full h-full"
             unoptimized
           />

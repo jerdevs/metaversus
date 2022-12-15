@@ -12,7 +12,7 @@ import { ExploreWorld } from "../data/data.interface";
 const Explore: React.FC = (): React.ReactElement => {
   const [active, setActive] = useState("world-2");
   return (
-    <section className="sm:p-16 xs:p-8 px-6 py-12" id="explore">
+    <section className="sm:p-16 xs:p-8 px-6 py-12">
       <motion.div
         variants={staggerContainer()}
         initial="hidden"
